@@ -154,6 +154,16 @@ body {
     border-radius: 0 25px 25px 0 !important;
 }
 
+.opening-heading{
+    text-align: center;
+    margin-top: 10vh;
+    text-decoration: underline;
+}
+.opening-times {
+    text-align: center;
+    margin-top: 5vh;
+}
+
 footer {
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -173,7 +183,6 @@ footer a {
 #footer-div2 {
     text-align: right;
 }
-
 
 
 
