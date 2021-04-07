@@ -1,7 +1,7 @@
 function openSide(){
     var x = document.getElementById('side');
 
-    x.style.width= '40vw';
+    x.style.width= '30vw';
 }
 
 function closeSide(){
