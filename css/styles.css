@@ -31,6 +31,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.selected {
+    text-decoration: underline;
+
+}
+
 #side {
     background-color: rgba(33, 37, 41, 0.9);
     height: 100vh;
@@ -100,20 +105,128 @@ body {
 
 .col4 {
     padding-top: 5%;
+    padding-right: 0;
     text-align: center;
 }
 
-.col4 h3 {
+.col5 {
+    background-image: url(/images/burger.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 25px 25px 0;
+    min-height: 70vh;
+    padding-top: 2vw;
+}
 
+.col6 {
+    padding-top: 5%;
+}
+
+.col7 {
+    padding-top: 5%;
+    padding-right: 0;
+}
+
+.col8 {
+    background-image: url(/images/bar.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 25px 25px 0;
+    min-height: 70vh;
+    padding-top: 2vw;
+    
+
+}
+
+.col9 {
+
+    background-color: #282727;
+    min-height: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    border-radius: 25px;
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.col9 h4 {
+    text-align: center;
+    color: #EBEBEB;
+
+}
+
+.main-p {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    color: #9c0000;
     text-decoration: underline;
 }
+
+h5 {
+    text-decoration: underline;
+}
+
+.updates {
+    margin-left: 2%;
+}
+
+
+
+.map-responsive {
+    text-align: center;
+
+}
+
+.map-responsive iframe {
+    border-radius: 25px;
+    height: 30vh;
+    width: 30vw;
+
+}
+
+
+.contact-form .btn {
+    background-color: #05540B;
+    padding: 2%;
+    width: 50%;
+}
+
+.booking-form {
+    padding-top: 5%;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.booking-form .btn {
+    background-color: #05540B;
+    padding: 2%;
+    width: 25%;
+
+}
+
+.burger-img {
+    border-radius: 0 25px 25px 0 !important;
+    min-height: 70vh;
+    object-fit: cover;
+    padding: 0;
+    ;
+}
+
 
 
 .card {
     background-color: #C4C4C4;
-    min-height: 40vh;
+    min-height: 30vh;
+    width: 15vw;
     text-align: center !important;
     border-radius: 25px;
+    margin: 0 auto;
 
 }
 
@@ -123,7 +236,7 @@ body {
     color: #EBEBEB;
     padding: 8px 8px 8px 8px;
     border-radius: 90px;
-   
+
 }
 
 .card-header {
@@ -146,23 +259,27 @@ body {
     margin-left: 10%;
 }
 
-.menus{
+.menus {
     text-align: left;
 }
 
-.burger-img {
-    border-radius: 0 25px 25px 0 !important;
+
+
+.opening-heading {
+    text-align: center;
+    text-decoration: underline;
+
 }
 
-.opening-heading{
-    text-align: center;
-    margin-top: 10vh;
-    text-decoration: underline;
-}
 .opening-times {
     text-align: center;
     margin-top: 5vh;
 }
+
+
+
+
+
 
 footer {
     padding-top: 1vh;
@@ -186,6 +303,8 @@ footer a {
 
 
 
+
+
 @media only screen and (max-device-width: 575px) and (-webkit-min-device-pixel-ratio: 2) {
 
     #footer-div1,
@@ -194,9 +313,42 @@ footer a {
     }
 }
 
+@media only screen and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .col5,
+    .col8 {
+        border-radius: 0 0 25px 25px !important;
+        min-height: 30vh;
+        margin-left: 3vw;
+        width: 92%;
+      
+    
+        
+      
+    }
+}
+
 @media only screen and (max-device-width: 575px) and (-webkit-min-device-pixel-ratio: 2) {
 
-    .burger-img {
-        border-radius: 0 0 25px 25px !important;
+    .map-responsive iframe {
+        border-radius: 25px;
+        height: 15vh;
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .col9 h4 {
+        font-size: 90%;
+    }
+}
+
+
+@media only screen and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .card {
+        margin: 0 auto;
+        width: 50vw;
     }
 }
